@@ -25,7 +25,7 @@ const SectionProcess = () => {
                     </div>
                     <div className="profile-status profile-process">
                         <img src={dot} alt="success"/>
-                        <p className="success process">Success</p>
+                        <p className="success process">Processing</p>
                     </div>
                 </div>
                 <div className="profile-card">
@@ -34,9 +34,9 @@ const SectionProcess = () => {
                         <p className="name">Jane Cooper</p>
                         <p className="email">jane.cooper@gmail.com</p>
                     </div>
-                    <div className="profile-status">
+                    <div className="profile-status profile-process">
                         <img src={dot} alt="success"/>
-                        <p className="success fail">Success</p>
+                        <p className="success fail">Failed</p>
                     </div>
                 </div>
                 <div className="profile-card">
