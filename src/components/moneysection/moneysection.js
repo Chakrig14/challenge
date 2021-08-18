@@ -5,6 +5,8 @@ import {Component} from "react";
 import email from "../moneysection/Vector.png";
 import team from "../moneysection/multiple.png";
 import arrowImage from "../moneysection/arrow.png";
+import dotted from "../sectionprice/Path.png"
+
 class MoneySection extends Component {
     render(){
         return(
@@ -14,6 +16,7 @@ class MoneySection extends Component {
                 <h1 className="money-heading money-color">FEATURES</h1>
                 <p className="money-para">A better way to send money</p>
                 <div className="section-card-lg">
+                <img src={dotted} alt="dot-bg" className="dot-img" />
                     <div className="section-one">
                     <div className="section-card">
                     <div className="flex-card">

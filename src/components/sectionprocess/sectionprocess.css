@@ -34,6 +34,8 @@
 }
 .selection-profile{
     width: 450px;
+    background-color: #ffffff;
+    position: relative;
 }
 .selection-message{
     width:500px;
@@ -99,6 +101,9 @@
 .message-content{
     margin-left: 20px;
 }
+.dot-img{
+    position: absolute;
+}
 
 @media screen and (max-width:768px){
     .section-process{
@@ -112,5 +117,8 @@
     .selection-profile{
         order:2;
         width: 300px;
+    }
+    .dot-img{
+        display: none;
     }
 }

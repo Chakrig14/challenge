@@ -1,9 +1,14 @@
 import "../sectionprocess/sectionprocess.css"
 import avatar from "../sectionprocess/Avatar.png"
 import dot from "../sectionprocess/Dot.png"
+import mavatar from "../sectionprocess/male.png"
 import iconMessage from "../sectionprocess/Icon.png"
+import dotted from "../sectionprice/Path.png"
+
 const SectionProcess = () => {
     return(
+        <>
+        <img src={dotted} alt="dot-bg" className="dot-img" />
         <div className="section-process">
             <div className="selection-profile">
                 <div className="profile-card">
@@ -18,7 +23,7 @@ const SectionProcess = () => {
                     </div>
                 </div>
                 <div className="profile-card">
-                    <img src={avatar} alt="avatar"/>
+                    <img src={mavatar} alt="avatar"/>
                     <div>
                         <p className="name">Jane Cooper</p>
                         <p className="email">jane.cooper@gmail.com</p>
@@ -40,7 +45,7 @@ const SectionProcess = () => {
                     </div>
                 </div>
                 <div className="profile-card">
-                    <img src={avatar} alt="avatar"/>
+                    <img src={mavatar} alt="avatar"/>
                     <div>
                         <p className="name">Jane Cooper</p>
                         <p className="email">jane.cooper@gmail.com</p>
@@ -72,6 +77,7 @@ const SectionProcess = () => {
         </div>
         </div>
         </div>
+        </>
     )
 }
 

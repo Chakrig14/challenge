@@ -3,7 +3,7 @@ import dropArrow from "../faq/drop.png"
 import "../faq/faq.css";
 const Faq = () => {
     return(
-        <div>
+        <div className="faq-section">
             <h1 className="faq-heading">Frequently Asked Questions</h1>
             <div className="faqs-card">
             <hr />

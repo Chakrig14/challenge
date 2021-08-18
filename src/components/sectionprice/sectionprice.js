@@ -1,5 +1,6 @@
 import "../sectionprice/sectionprice.css"
 import tick from "../sectionprice/Icon.png"
+
 const SectionPrice = () => {
     return(
         <div className="section-price">
