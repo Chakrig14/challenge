@@ -1,0 +1,56 @@
+.faq-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width:450px;
+    margin:0;
+}
+.icon-top{
+    width:10px;
+}
+.faq-answer{
+    color: #6B7280;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.faqs-card{
+    width: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.faq-heading{
+    color:#111827;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+hr{
+    border:1px solid #E5E7EB;
+}
+.faq-para{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px){
+    .faqs-card{
+        width: 100%;
+        margin:10px;
+    }
+    .faq-card{
+        width: 350px;
+        margin:0px;
+        padding:0px;
+    }
+    .faq-answer{
+        width:300px;
+    }
+}
